@@ -40,7 +40,7 @@ document.addEventListener("DOMContentLoaded", function () {
       function makeAlert(){
 // passes the i variable from the loop to the addInfo function
 // ${} same as concatenation for string + array/variables 
-          alert(`Accusation ${i}: I accuse ${friendsArray[i % friendsArray.length]} with the ${weaponsArray[i % weaponsArray.length]} in the ${locationArray[i % locationArray.length]}`)
+          alert(`Accusation ${i}: I accuse ${friendsArray[i % friendsArray.length]} with the ${weaponsArray[i % weaponsArray.length]} in the ${locationArray[i % locationArray.length]}!`)
         }
         return makeAlert
     }

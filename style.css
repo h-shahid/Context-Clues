@@ -1,10 +1,23 @@
 #container {
     color: purple;
-}
-body{
-    background-color: lightpink;
+   
+    }
+
+    body{
+    background-color: blanchedalmond;
+   
 }
 h1{
     color: blueviolet
+    
+}
+#div1{
+    text-align: center;
+}
 
+
+img{
+    opacity: 1;
+    width:300px;
+    height:300px;
 }
