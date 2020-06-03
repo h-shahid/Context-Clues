@@ -48,7 +48,7 @@ document.addEventListener("DOMContentLoaded", function () {
     container.id = "container";
     document.body.appendChild(container);
     //loop through friendsArray 20 times with the weapons and 
-    for (i = 1; i < 100; i++) {
+    for (i = 1; i < 101; i++) {
         var h3 = document.createElement("h3");
         var text = document.createTextNode(`Accusation ${i}`);
         h3.append(text);
